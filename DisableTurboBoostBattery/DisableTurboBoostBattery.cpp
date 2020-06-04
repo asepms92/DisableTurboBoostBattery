@@ -95,8 +95,8 @@ IOReturn DisableTurboBoostBattery::powerSourceStateChanged(UInt32 messageType, _
 
 void DisableTurboBoostBattery::actOnChangedPowerState()
 {
-	if (pPowerSource && isOnAC != pPowerSource->externalChargeCapable() && pPowerSource->batteryInstalled()) {
-		if ((isOnAC = pPowerSource->externalChargeCapable()))
+	if (pPowerSource && isOnAC != pPowerSource->externalConnected() && pPowerSource->batteryInstalled()) {
+		if ((isOnAC = pPowerSource->externalConnected()))
 			enable_tb();
 		else
 			disable_tb();
