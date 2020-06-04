@@ -10,8 +10,8 @@
 extern "C" {
 #endif
 
-    void disable_tb();
-    void enable_tb();
+    void disable_tb(void);
+    void enable_tb(void);
 
 #ifdef __cplusplus
 }
