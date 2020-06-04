@@ -255,13 +255,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2.1;
+				CURRENT_PROJECT_VERSION = 2.5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DisableTurboBoostBattery/DisableTurboBoostBattery-Prefix.pch";
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "DisableTurboBoostBattery/DisableTurboBoostBattery-Info.plist";
 				MODULE_NAME = pk.qwerty12.DisableTurboBoostBattery;
-				MODULE_VERSION = 2.1;
+				MODULE_VERSION = 2.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
@@ -277,7 +277,7 @@
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "DisableTurboBoostBattery/DisableTurboBoostBattery-Info.plist";
 				MODULE_NAME = pk.qwerty12.DisableTurboBoostBattery;
-				MODULE_VERSION = 2.1;
+				MODULE_VERSION = 2.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = kext;
 			};
